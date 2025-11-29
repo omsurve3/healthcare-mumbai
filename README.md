@@ -92,34 +92,6 @@ Frontend (Next.js + React)
 - HuggingFace/AWS Lambda (ML API)
 - MongoDB Atlas
 
----
-
-## Project Structure
-
-predictive-hospital-management-system/
-│
-├── frontend/ # Next.js app
-│ ├── app/
-│ ├── components/
-│ ├── hooks/
-│ ├── public/
-│ └── styles/
-│
-├── backend/ # Node.js + Express API
-│ ├── src/
-│ ├── routes/
-│ ├── controllers/
-│ ├── models/
-│ └── middleware/
-│
-├── ml-engine/ # Python ML module
-│ ├── notebooks/
-│ ├── models/
-│ ├── training/
-│ └── api/
-│
-└── README.md
-
 
 ---
 
