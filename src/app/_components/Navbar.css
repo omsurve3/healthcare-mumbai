@@ -1,0 +1,112 @@
+.nav {
+  height: 64px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+  background: #ffffff;
+}
+
+/* Left */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logo-square {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.logo-text {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Center menu */
+.nav-center {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.nav-link {
+  border: none;
+  background: none;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 4px 0;
+  color: #111111;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-link:hover {
+  color: #555;
+}
+
+.chevron {
+  font-size: 10px;
+}
+
+/* Right buttons */
+.nav-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid transparent;
+  background: none;
+}
+
+.btn-outline {
+  border-color: #111111;
+  color: #111111;
+  background: #ffffff;
+}
+
+.btn-outline:hover {
+  background: #f7f7f7;
+}
+
+.btn-solid {
+  background: #111111;
+  color: #ffffff;
+}
+
+.btn-solid:hover {
+  opacity: 0.9;
+}
+
+/* Optional: make it not squish on small screens */
+@media (max-width: 900px) {
+  .nav-center {
+    display: none; /* or turn into hamburger later */
+  }
+}
